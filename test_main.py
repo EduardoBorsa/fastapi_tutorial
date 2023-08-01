@@ -11,4 +11,4 @@ def test_root_route():
 
     message = response.json()["message"]
 
-    assert message == "Hello World FOO"
+    assert message == "Hello World"
