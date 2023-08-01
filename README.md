@@ -4,6 +4,7 @@
 - [How To Run The Server](#how-to-run-the-server)
 - [Accessing Swagger Docs](#accessing-swagger-docs)
 - [Postman](#postman)
+- [Continuous Integration](#continuous-integration)
 
 ## Project Setup
 
@@ -52,3 +53,9 @@ The other file is named `./postman/Fast API User Guide.postman_environment.json`
 corner. You have to choose the environment.
 
 ![alt text](https://github.com/EduardoBorsa/fastapi_tutorial/blob/main/static/postman_import_tut_02.png)
+
+## Continuous Integration
+
+### Test With Pytest
+
+We have a GitHub action inside `./.github/workflows/pytest_trial.yml` which runs `pytest`.
