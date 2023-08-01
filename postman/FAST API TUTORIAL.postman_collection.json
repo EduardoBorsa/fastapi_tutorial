@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "68ff4cd7-9ecb-4a78-b095-49f5a5739415",
+		"name": "FAST API TUTORIAL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Path Parameters",
+			"item": [
+				{
+					"name": "Path Parameters 1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{local_url}}/items/2",
+							"host": [
+								"{{local_url}}"
+							],
+							"path": [
+								"items",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Path Parameters 2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{local_url}}/users/me",
+							"host": [
+								"{{local_url}}"
+							],
+							"path": [
+								"users",
+								"me"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Path Parameters 3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{local_url}}/users/foo",
+							"host": [
+								"{{local_url}}"
+							],
+							"path": [
+								"users",
+								"foo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Path Parameters 4",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{local_url}}/users/foo",
+							"host": [
+								"{{local_url}}"
+							],
+							"path": [
+								"users",
+								"foo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Path Parameters 5",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{local_url}}/users/foo",
+							"host": [
+								"{{local_url}}"
+							],
+							"path": [
+								"users",
+								"foo"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
